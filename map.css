@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.map{
+  width: 100%;
+  height: 1100px;
+  background-image: url('images/map.jpg');
+  background-size: 1400px;
+  position: absolute;
+  top:-300px;
+}
+#tag1{
+  position: absolute;
+  left:290px;
+  top:630px;
+}
+#tag1:hover{
+  width: 35px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+#tag2{
+  position: absolute;
+  right:275px;
+  top:595px;
+}
+#tag2:hover{
+  width: 35px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+#tag3{
+  position: absolute;
+  right:310px;
+  bottom:155px;
+}
+#tag3:hover{
+  width: 35px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+#tag4{
+  position: absolute;
+  left:395px;
+  top:720px;
+}
+#tag4:hover{
+  width: 35px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+#tag5{
+  position: absolute;
+  left:690px;
+  top:515px;
+}
+#tag5:hover{
+  width: 35px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+
+.bubble 
+{
+position: absolute;
+bottom:100px;
+left:50px;
+width: 240px;
+height: 150px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+border: #FF3E55 solid 9px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 41px 7px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -41px;
+top: 113px;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 49px 15px 0;
+border-color: transparent #FF3E55;
+display: block;
+width: 0;
+z-index: 0;
+left: -58px;
+top: 105px;
+}
+.bubble p{
+  margin: 30px;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+}
+a:link{
+  color:grey;
+  text-decoration: none;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:black;
+  text-decoration: none;
+}

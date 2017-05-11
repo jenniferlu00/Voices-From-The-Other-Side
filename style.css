@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Oswald|PT+Sans+Narrow|Playfair+Display|Wire+One');
+img {
+  transition: 1s ease;
+  opacity: 0.3;
+  position: absolute;
+  
+  
+}
+
+.content{
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 10px 5px;
+  font-family: 'Playfair Display', serif;
+  line-height: 35px;
+}
+h1{
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: 400px;
+}
+h2{
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: 400px;
+}
+.text{
+  width:400px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  left: 200px;
+}
+a:link {
+  color: grey;
+  text-decoration: none;
+
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:black;
+  text-decoration: underline;
+}

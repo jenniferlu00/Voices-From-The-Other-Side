@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+html{
+  font-family: 'Playfair Display', serif;
+  
+}
+.portrait {
+  position: absolute;
+  left:80px;
+  width: 400px; 
+  height: 600px;
+}
+.portrait img{
+	width: 400px;
+	height: 600px;
+}
+
+
+
+.bio{
+	width: 300px;
+	height: 500px;
+	margin-left: 800px;
+	position: absolute;
+	margin-top: 0px;
+	
+}
+.bio p{
+	margin-left: 5px;
+
+}
+span{
+  float: left;
+  font-size: 75px;
+  line-height: 45px;
+  padding-top: 15px;
+  padding-left: 3px;
+  padding-right: 8px;
+
+}
+
+audio{
+	width: 400px;
+	margin-top: 0px;
+  position: relative;
+  top: 650px;
+  left:280px;
+}
+p{
+	line-height: 35px;
+}
+
+#home{
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.image-gallery{
+  width:500px;
+  height: 700px;
+  background-color:white;
+  padding:0px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 40px;
+  
+}
+.image-gallery .big-image{
+  padding:10px;
+  margin:0 auto;
+  background-color:white;  
+}
+.image-gallery .big-image img{
+  display:none;
+  margin:0 auto;
+}
+/*Selected image display*/
+.image-gallery .big-image img:target{
+  display:block;
+}
+/*on select image dusplay none the default image*/
+.image-gallery .big-image img:target ~ img#default{
+  display:none;
+}
+/*Shoe Default Image in first load*/
+.image-gallery .big-image img#default{
+  display:block;
+}
+
+.image-gallery ul{
+  margin-top:-10px;
+  list-style: none;
+}
+.image-gallery li{
+  float:left;
+  background-color:rgba(255,255,255,0.5);margin-right:3px;
+}
+.image-gallery li:hover{
+  background-color:rgba(255,255,255,0.8);
+}
+.container{
+  width:600px;
+  height: 50px;
+  position: absolute;
+  top: 570px;
+  margin-left:40px;
+}
+
+a:link{
+  color:grey;
+  text-decoration: none;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:black;
+  text-decoration: underline;
+}
+
